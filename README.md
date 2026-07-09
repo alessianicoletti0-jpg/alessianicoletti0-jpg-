@@ -25,23 +25,24 @@ Google Fonts — Lora e Playfair Display
 
 📁 Struttura del progetto
 
-├── index.html
-├── CV.html
-├── Contatti.html
-├── Progetto Buddhify.html
+├── index.html                                                                                                                                        
+├── CV.html                                                                                                                                                                                               
+├── Contatti.html                                                                                                                                      
+├── Progetto Buddhify.html   
+
 ├── css/              # fogli di stile compilati (usati dal sito)
-│   ├── style.css
-│   ├── contatti.css
-│   ├── cv.css
-│   ├── progetto.css
-│   └── responsive.css
+│   ├── style.css                                                                                                                                      
+│   ├── contatti.css                                                                                                                                      
+│   ├── cv.css                                                                                                                                      
+│   ├── progetto.css                                                                                                                                      
+│   └── responsive.css                                                                                                                                                                                                 
 ├── scss/             # sorgenti Sass (da modificare e ricompilare)
-│   ├── _variables.scss
-│   ├── _mixins.scss
-│   ├── _burger-menu.scss
-│   ├── style.scss
-│   ├── contatti.scss
-│   ├── cv.scss
-│   ├── progetto.scss
-│   └── responsive.scss
+│   ├── _variables.scss                                                                                                                                      
+│   ├── _mixins.scss                                                                                                                                      
+│   ├── _burger-menu.scss                                                                                                                                      
+│   ├── style.scss                                                                                                                                      
+│   ├── contatti.scss                                                                                                                                      
+│   ├── cv.scss                                                                                                                                      
+│   ├── progetto.scss                                                                                                                                      
+│   └── responsive.scss                                                                                                                                      
 └── media/            # immagini e icone
