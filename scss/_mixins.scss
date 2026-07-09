@@ -1,0 +1,43 @@
+
+@mixin btn-base($width, $height: 48px) {
+    width: $width;
+    height: $height;
+    background: var(--bg-white);
+    color: var(--accent-color);
+    margin-bottom: 25px;
+    margin-left: 60px;
+    margin-right: 25px;
+}
+
+
+@mixin box-base {
+    background: $bg-box;
+    border-radius: $border-radius;
+    padding: $padding-box;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid $border-color;
+    height: $box-height;
+    width: $box-width;
+    margin-top: 40px;
+}
+
+@mixin sticky-header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+@mixin menu-full-width {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+}
+
+@mixin respond-to($breakpoint) {
+    @media (max-width: $breakpoint) {
+        @content;
+    }
+}
